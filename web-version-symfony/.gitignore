@@ -1,0 +1,51 @@
+######## Symfony ####### 
+
+# ENV FILES (secrets)
+.env
+.env.local
+.env.*.local
+.env.test
+
+
+#COMPOSER (PHP dependencies)
+/vendor/
+
+# logs 
+/var/
+/cache/
+/log/
+/logs/
+
+
+# DATABASE / MIGRATIONS 
+/migrations/
+
+
+# FRONTEND ASSETS 
+/node_modules/
+/public/build/
+/public/bundles/
+
+npm-debug.log*
+yarn-error.log*
+
+
+# IDE
+.vscode/
+
+######## JavaFX #######
+
+
+# BUILD / OUTPUT FILES
+build/
+dist/
+
+# NETBEANS PROJECT FILES
+nbproject/
+
+BUILD FILES 
+build.xml
+manifest.mf
+
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1200.0" styleClass="mainFxmlClass" stylesheets="@menu.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="GUI_transport.MenuController">
+   <children>
+      <Pane prefHeight="140.0" prefWidth="1200.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="443.0" layoutY="48.0" prefHeight="45.0" prefWidth="314.0" text="Gestion de transport">
+               <font>
+                  <Font name="Impact" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="77.0" fitWidth="114.0" layoutX="1062.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Capture%20d'écran%202023-10-17%20211648.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="1079.0" layoutY="93.0" text="ExploreX">
+               <font>
+                  <Font name="Impact" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="gestionVeh" layoutX="469.0" layoutY="282.0" mnemonicParsing="false" onAction="#gestionVeh" prefHeight="60.0" prefWidth="300.0" text="  Gestion des véhicules" />
+      <Button fx:id="gestionLoc" layoutX="469.0" layoutY="422.0" mnemonicParsing="false" onAction="#gestionLoc" prefHeight="60.0" prefWidth="300.0" text="  Gestion des locations" />
+      <ImageView fitHeight="39.0" fitWidth="56.0" layoutX="481.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-clipart-computer-icons-car-dealership-icon-design-car-blue-angle-removebg-preview%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="54.0" layoutX="492.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-blue-document-smart-contract-computer-icons-document-business-contract-ico-miscellaneous-blue-angle-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
